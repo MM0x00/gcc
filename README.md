@@ -1,4 +1,4 @@
-# gcc
+# gcc在线体验环境
 
 
 ## 软件简介
@@ -41,4 +41,6 @@ $ docker run -it --rm --name my-running-app my-gcc-app
 
 ## 资源链接
 
-- [优质教程](https://github.com/shiyanlou/trylab)
+- http://www.csdn.net/tag/gcc
+- https://gcc.gnu.org
+- https://gcc.gnu.org/onlinedocs/7.1.0/
