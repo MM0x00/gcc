@@ -24,13 +24,19 @@ https://gcc.gnu.org
 使用此图像的最直接的方法是使用gcc容器作为构建和运行时环境。在你的Dockerfile写作中，按照以下的方式编写和运行你的项目：
 
 FROM gcc:4.9
+
 COPY . /usr/src/myapp
+
 WORKDIR /usr/src/myapp
+
 RUN gcc -o myapp main.c
+
 CMD ["./myapp"]
+
 然后，构建并运行Docker映像：
 
 $ docker build -t my-gcc-app .
+
 $ docker run -it --rm --name my-running-app my-gcc-app
 
 ## 资源链接
